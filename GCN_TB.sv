@@ -21,10 +21,10 @@ module GCN_TB
 
 
 
-  string feature_filename = "MODIFY_YOUR_PATH_HERE/Data/feature_data.txt"; // modify the path to the files to match your case
-  string weight_filename = "MODIFY_YOUR_PATH_HERE/Data/weight_data.txt";
-  string coo_filename = "MODIFY_YOUR_PATH_HERE/Data/coo_data.txt";
-  string gold_address_filename = "MODIFY_YOUR_PATH_HERE/Data/gold_address.txt";
+  string feature_filename = "./data/feature_data.txt"; // modify the path to the files to match your case
+  string weight_filename = "./data/weight_data.txt";
+  string coo_filename = "./data/coo_data.txt";
+  string gold_address_filename = "./data/gold_address.txt";
 
   logic read_enable;
   logic write_enable;
