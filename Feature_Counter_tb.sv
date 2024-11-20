@@ -58,3 +58,4 @@ module Feature_Counter_tb;
         $monitor("Time: %0t | Reset: %b | Enable: %b | Counter: %d", 
                  $time, reset, enable_feature_counter, counter);
     end
+endmodule
